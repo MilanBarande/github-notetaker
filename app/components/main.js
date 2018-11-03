@@ -37,7 +37,7 @@ class Main extends Component<Props, State> {
     api
       .getBio(this.state.username)
       .then(res => {
-        if (res.message === 'Not found') {
+        if (res.message === 'Not Found') {
           this.setState({
             error: 'User not found',
             isLoading: false
@@ -55,7 +55,7 @@ class Main extends Component<Props, State> {
           });
         }
       })
-      .catch(err => console.log('Error on Promise resolution of handleSubmit:', err));
+      .catch(err => console.warning('Error on Promise resolution of handleSubmit:', err));
   };
 
   render() {
