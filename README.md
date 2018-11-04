@@ -1,5 +1,5 @@
 # github-notetaker
-This app is an updated version of the one developed through the great course React Native Fundamentals by Tyler McGinnis.
+This app is an updated version of the one developed through the great course [React Native Fundamentals](https://egghead.io/courses/react-native-fundamentals) by Tyler McGinnis.
 It's a React Native app mostly ment to work on iOS which uses the github API to access users' profile, repositories and which allows you to take notes about the different profiles.
 
 Differences are:
